@@ -16,9 +16,9 @@ import { UpdateTodoDto } from './dto/update-todo.dto';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { IndexTodoSwagger } from './swagger/index-todo.swagger';
 import { CreateTodoSwagger } from './swagger/create-todo.swagger';
-import { BadRequestSwagger } from 'src/helpers/swagger/bad-request.swagger';
+import { BadRequestSwagger } from '../../../src/helpers/swagger/bad-request.swagger';
 import { ShowTodoSwagger } from './swagger/show-todo.swagger';
-import { NotFoundSwagger } from 'src/helpers/swagger/not-found.swagger';
+import { NotFoundSwagger } from '../../../src/helpers/swagger/not-found.swagger';
 import { UpdateTodoSwagger } from './swagger/update-todo.swagger';
 
 @Controller('api/v1/todos')
